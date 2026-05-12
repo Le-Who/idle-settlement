@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #f5f5f4; /* stone-100 */
+    color: #1c1917; /* stone-900 */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e7e5e4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #92400e;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #78350f;
+}
+
+.parchment {
+  background-color: #f5f5dc;
+  background-image: url("https://www.transparenttextures.com/patterns/parchment.png");
+}
